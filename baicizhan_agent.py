@@ -5,9 +5,9 @@ import time
 import xml.etree.ElementTree as ET
 
 ADB_PATH = "scrcpy/adb.exe"  # ADB可执行文件路径。注：这个api-key在演示结束后就失效了
-API_KEY = "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"
+API_KEY = "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"
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL = "qwen/qwen3.5-flash-02-23"
+MODEL = "bytedance-seed/seed-1.6-flash"
 
 def get_screen_info():
     """快速获取屏幕信息：通过管道合并指令，减少 30%-50% 的耗时"""

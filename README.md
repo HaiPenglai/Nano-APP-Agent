@@ -82,6 +82,15 @@ https://openrouter.ai/settings/keys
 
 需要确保，USB已经连接手机，开启了USB调试模式，手机屏幕打开，桌面上正好有一个百词斩（可能需要先打开一次，把广告给关掉，确保一进去就有一个开始打卡的按钮，因为我们的最小化实现没有那么鲁棒）。
 
+使用git clone下载仓库代码
+```shell
+git clone https://github.com/HaiPenglai/Nano-APP-Agent
+```
+
+确保scrcpy的文件夹放到了根目录，并且重命名为scrcpy
+
+![image-20260228182854319](./assets/image-20260228182854319.png)
+
 确保api可以调用，然后在根目录运行：
 
 ```shell
